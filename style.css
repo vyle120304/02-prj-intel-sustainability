@@ -11,13 +11,14 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 20px 0;
   background-color: #f4f4f4;
 }
 
 header > div {
-  max-width: 900px;
+  width: min(1200px, 100%);
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .hero-image {
